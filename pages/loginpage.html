@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../CSS/loginStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../Images/loginheader.png" alt="login header" class="header-image">
+        </div>
+        <div class="login-form">
+            <form id="loginForm" action="/login" method="post">
+                <div class="input-with-icon">
+                    <span class="icon"><img src="../Images/username_logo.png" alt="Username Icon"></span>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </div>
+                <div class="input-with-icon">
+                    <span class="icon"><img src="../Images/password_icon.png" alt="Password Icon"></span>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <button type="submit">Log In</button>
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </form>
+            
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="../Images/logo.png" alt="PFEPL Logo">
+    </div>
+</body>
+</html>

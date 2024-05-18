@@ -22,29 +22,29 @@
                 <div class="offcanvas-body">
                     <div class="section-container">
                         <div class="button-container"> 
-                            <button>Send Items</button>
-                            <button class="receive-items">Receive Items</button>
+                            <button id="sendItemsBtn">Send Items</button>
+                            <button id="receiveItemsBtn" class="receive-items">Receive Items</button>
                         </div>
                     </div>
                     <div class="section-container">
                         <div class="button-container">
-                            <button>Approve Items</button>
+                            <button id="approveItemsBtn" class="approval-items">Approve Items</button>
                         </div>
                     </div>
                     <div class="section-container">
                         <div class="button-container">
-                            <button>My Inventory</button>
-                            <button>Project Inventory</button>
+                            <button id="myInventoryBtn">My Inventory</button>
+                            <button id="projectInventoryBtn">Project Inventory</button>
                         </div>
                     </div>
                     <div class="section-container">
                         <div class="button-container">
-                            <button>Transaction Progress</button>
-                            <button>Transaction History</button>
+                            <button id="transactionProgressBtn">Transaction Progress</button>
+                            <button id="transactionHistoryBtn">Transaction History</button>
                         </div>
                     </div>
                     <div class="logout-button-container">
-                        <button>LOGOUT</button>
+                        <button id="logoutBtn">LOGOUT</button>
                     </div>
                 </div>
             </div>  
@@ -60,7 +60,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th></th>
+                        <th>Selection</th>
                         <th>Serial No</th>
                         <th>Form No</th>
                         <th>E-way Bill</th>
@@ -89,9 +89,10 @@
         </div>
 
         <div class="transfer-button-container">
-            <button>VIEW</button>
+            <button id="viewBtn" data-target1="../pages/receiverform.html">VIEW</button>
         </div>
     </div> 
+    <script src="../JS/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
